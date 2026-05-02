@@ -1,0 +1,71 @@
+﻿D:\full stack\full_stack_2-2-main\src\components\admin\AdminLayout.jsx:46: <button className="logout-btn" onClick={logout}>
+D:\full stack\full_stack_2-2-main\src\components\common\Navbar.jsx:30: <Link to="/" onClick={logout} className="logout-btn">
+D:\full stack\full_stack_2-2-main\src\components\user\UserLayout.jsx:48: <button className="user-logout" onClick={logout}>
+D:\full stack\full_stack_2-2-main\src\context\AuthContext.jsx:16: const response = await fetch(`${AUTH_API_BASE_URL}${path}`, {
+D:\full stack\full_stack_2-2-main\src\pages\admin\AdminDashboardLive.jsx:243: onClick={() => handleDeleteResource(resource.id)}
+D:\full stack\full_stack_2-2-main\src\pages\admin\ManageUsers.jsx:108: onClick={() => handleDelete(user.id)}
+D:\full stack\full_stack_2-2-main\src\pages\admin\ManageUsersLive.jsx:109: onClick={() => handleDelete(user.id)}
+D:\full stack\full_stack_2-2-main\src\pages\auth\Login.jsx:162: onClick={() => setShowPassword(!showPassword)}
+D:\full stack\full_stack_2-2-main\src\pages\auth\Login.jsx:178: onClick={generateCaptcha}
+D:\full stack\full_stack_2-2-main\src\pages\auth\Register.jsx:189: onClick={() => setShowPassword(!showPassword)}
+D:\full stack\full_stack_2-2-main\src\pages\auth\Register.jsx:212: onClick={() => setShowConfirmPassword(!showConfirmPassword)}
+D:\full stack\full_stack_2-2-main\src\pages\auth\Register.jsx:242: onClick={generateCaptcha}
+D:\full stack\full_stack_2-2-main\src\pages\user\Feedback.jsx:37: onClick={() => setRating(star)}
+D:\full stack\full_stack_2-2-main\src\pages\user\FeedbackLive.jsx:52: onClick={() => setRating(star)}
+D:\full stack\full_stack_2-2-main\src\pages\user\Home.jsx:37: // 🔷 Fetch resources
+D:\full stack\full_stack_2-2-main\src\pages\user\Home.jsx:88: onClick={() => setCurrentSlide(index)}
+D:\full stack\full_stack_2-2-main\src\pages\user\Home.jsx:106: onClick={() => setSelectedCategory(category)}
+D:\full stack\full_stack_2-2-main\src\pages\user\Home.jsx:135: onClick={() => navigate(`/resource/${resource.id}`)}
+D:\full stack\full_stack_2-2-main\src\pages\user\Home.jsx:148: onClick={() => navigate("/search")}
+D:\full stack\full_stack_2-2-main\src\pages\user\HomeLive.jsx:85: onClick={() => setCurrentSlide(index)}
+D:\full stack\full_stack_2-2-main\src\pages\user\HomeLive.jsx:101: onClick={() => setSelectedCategory(category)}
+D:\full stack\full_stack_2-2-main\src\pages\user\HomeLive.jsx:132: onClick={() => navigate(`/resource/${resource.id}`)}
+D:\full stack\full_stack_2-2-main\src\pages\user\HomeLive.jsx:143: <button className="primary-btn" onClick={() => navigate("/search")}>
+D:\full stack\full_stack_2-2-main\src\pages\user\Profile.jsx:83: onClick={() => setIsEditing((prev) => !prev)}
+D:\full stack\full_stack_2-2-main\src\pages\user\Profile.jsx:167: onClick={handleSave}
+D:\full stack\full_stack_2-2-main\src\pages\user\ResourceDetails.jsx:13: // 🔷 Fetch from backend
+D:\full stack\full_stack_2-2-main\src\pages\user\ResourceDetails.jsx:39: const handleDownload = async () => {
+D:\full stack\full_stack_2-2-main\src\pages\user\ResourceDetails.jsx:41:  const downloadUrl = `${process.env.REACT_APP_API_URL}/api/resources/download/${resource.id}`;
+D:\full stack\full_stack_2-2-main\src\pages\user\ResourceDetails.jsx:43: const response = await fetch(downloadUrl, {
+D:\full stack\full_stack_2-2-main\src\pages\user\ResourceDetails.jsx:48: throw new Error(`Failed to download file: ${response.status} ${response.statusText}`);
+D:\full stack\full_stack_2-2-main\src\pages\user\ResourceDetails.jsx:55: a.download = resource.title || 'resource';
+D:\full stack\full_stack_2-2-main\src\pages\user\ResourceDetails.jsx:61: console.error('Download failed:', error);
+D:\full stack\full_stack_2-2-main\src\pages\user\ResourceDetails.jsx:62: alert(`Failed to download the resource: ${error.message}`);
+D:\full stack\full_stack_2-2-main\src\pages\user\ResourceDetails.jsx:72: <p>Please wait while we fetch the resource details.</p>
+D:\full stack\full_stack_2-2-main\src\pages\user\ResourceDetails.jsx:103: <p><strong>Access:</strong> Download from the link below</p>
+D:\full stack\full_stack_2-2-main\src\pages\user\ResourceDetails.jsx:106: {/* 🔥 Download Button */}
+D:\full stack\full_stack_2-2-main\src\pages\user\ResourceDetails.jsx:107: <button className="primary-btn" onClick={handleDownload}>
+D:\full stack\full_stack_2-2-main\src\pages\user\ResourceDetails.jsx:108: Download Resource
+D:\full stack\full_stack_2-2-main\src\pages\user\ResourceDetailsLive.jsx:77: const handleDownload = async () => {
+D:\full stack\full_stack_2-2-main\src\pages\user\ResourceDetailsLive.jsx:79: const downloadUrl = `${process.env.REACT_APP_API_URL}/api/resources/download/${resource.id}`;
+D:\full stack\full_stack_2-2-main\src\pages\user\ResourceDetailsLive.jsx:81: const response = await fetch(downloadUrl, {
+D:\full stack\full_stack_2-2-main\src\pages\user\ResourceDetailsLive.jsx:86: throw new Error(`Failed to download file: ${response.status} ${response.statusText}`);
+D:\full stack\full_stack_2-2-main\src\pages\user\ResourceDetailsLive.jsx:93: a.download = resource.title || 'resource';
+D:\full stack\full_stack_2-2-main\src\pages\user\ResourceDetailsLive.jsx:99: console.error('Download failed:', error);
+D:\full stack\full_stack_2-2-main\src\pages\user\ResourceDetailsLive.jsx:100: alert(`Failed to download the resource: ${error.message}`);
+D:\full stack\full_stack_2-2-main\src\pages\user\ResourceDetailsLive.jsx:109: <p>Please wait while we fetch the resource details.</p>
+D:\full stack\full_stack_2-2-main\src\pages\user\ResourceDetailsLive.jsx:139: <p><strong>Access:</strong> Download from the link below</p>
+D:\full stack\full_stack_2-2-main\src\pages\user\ResourceDetailsLive.jsx:147: <button className="primary-btn" onClick={handleDownload}>
+D:\full stack\full_stack_2-2-main\src\pages\user\ResourceDetailsLive.jsx:148: Download Resource
+D:\full stack\full_stack_2-2-main\src\pages\user\ResourceDetailsLive.jsx:160: onClick={() => setRating(star)}
+D:\full stack\full_stack_2-2-main\src\pages\user\Search.jsx:86: onClick={() => {
+D:\full stack\full_stack_2-2-main\src\pages\user\Search.jsx:103: onClick={() => setSelectedCategory(cat)}
+D:\full stack\full_stack_2-2-main\src\pages\user\Search.jsx:114: <p className="search-empty-state">Fetching resources...</p>
+D:\full stack\full_stack_2-2-main\src\pages\user\Search.jsx:131: onClick={() => navigate(`/resource/${resource.id}`)}
+D:\full stack\full_stack_2-2-main\src\pages\user\SearchLive.jsx:82: onClick={() => {
+D:\full stack\full_stack_2-2-main\src\pages\user\SearchLive.jsx:99: onClick={() => setSelectedCategory(cat)}
+D:\full stack\full_stack_2-2-main\src\pages\user\SearchLive.jsx:110: <p className="search-empty-state">Fetching resources...</p>
+D:\full stack\full_stack_2-2-main\src\pages\user\SearchLive.jsx:136: onClick={() => navigate(`/resource/${resource.id}`)}
+D:\full stack\full_stack_2-2-main\src\utils\feedbackStore.js:15: const response = await fetch(API_BASE_URL);
+D:\full stack\full_stack_2-2-main\src\utils\feedbackStore.js:17: throw new Error("Unable to fetch feedback.");
+D:\full stack\full_stack_2-2-main\src\utils\feedbackStore.js:32: const response = await fetch(API_BASE_URL, {
+D:\full stack\full_stack_2-2-main\src\utils\resourceStore.js:34: const response = await fetch(API_BASE_URL);
+D:\full stack\full_stack_2-2-main\src\utils\resourceStore.js:36: throw new Error("Unable to fetch resources.");
+D:\full stack\full_stack_2-2-main\src\utils\resourceStore.js:44: const response = await fetch(`${API_BASE_URL}/${id}`);
+D:\full stack\full_stack_2-2-main\src\utils\resourceStore.js:46: throw new Error("Unable to fetch resource.");
+D:\full stack\full_stack_2-2-main\src\utils\resourceStore.js:77: const response = await fetch(`${API_BASE_URL}/upload`, {
+D:\full stack\full_stack_2-2-main\src\utils\resourceStore.js:110: const response = await fetch(`${API_BASE_URL}/${id}`, {
+D:\full stack\full_stack_2-2-main\src\utils\resourceStore.js:123: const response = await fetch(`${API_BASE_URL}/${id}`, {
+D:\full stack\full_stack_2-2-main\src\utils\userStore.js:12: const response = await fetch(API_BASE_URL);
+D:\full stack\full_stack_2-2-main\src\utils\userStore.js:14: throw new Error("Unable to fetch users.");
+D:\full stack\full_stack_2-2-main\src\utils\userStore.js:22: const response = await fetch(`${API_BASE_URL}/${id}`, {
